@@ -19,6 +19,8 @@ MyConfigurationBean myConf;<br/>
 System.out.println(myConf.getMyString());<br/>
 <br/>
 <br/>
-The application will read the value 'qwertyFromDevSpecificPropertyFile' of the property myString in the profile specific application-dev.properties configuration file then display it in the terminal. (if the '--spring.profiles.active=dev' parameter is used<br/>
+The application will read the value 'qwertyFromDevSpecificPropertyFile' of the property myString in the profile specific application-dev.properties configuration file then display it in the terminal.<br/> 
+If the '--spring.profiles.active=dev' parameter is not used then the application will display 'qwerty'.<br/>
+
 
 
